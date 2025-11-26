@@ -304,6 +304,7 @@ docker build -t kokoros .
 
 # Or pull pre-built image from GHCR
 docker pull ghcr.io/lucasjinreal/kokoros:main
+docker tag ghcr.io/lucasjinreal/kokoros:main kokoros:latest
 ```
 
 2. Run the image, passing options as described above
